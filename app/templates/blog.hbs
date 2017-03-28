@@ -2,18 +2,15 @@
 <h2> Checkout all the sweet blogs! </h2>
 </div>
 <div class="container">
-
   {{#each model as |blog|}}
-    <div>
-      <h3>Title: {{blog.title}}</h3>
+    <div class='blog-model'>
+      <h2>Title: {{blog.title}}</h2>
       <h3>Subject: {{blog.subject}}</h3>
       <h3>Blog: {{blog.body}}</h3>
       <h3>Author: {{blog.author}}</h3>
-      <ul>
-        {{#each blog as |blog|}}
-          <li>{{blog.content}}</li>
-        {{/each}}
-      </ul>
+      <br>
+      <btn class='edit btn btn-primary'>Edit</btn>
+      <btn class='delete btn btn-danger'>Delete</btn>
     </div>
   {{/each}}
 </div>

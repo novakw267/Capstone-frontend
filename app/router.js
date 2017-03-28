@@ -11,8 +11,6 @@ Router.map(function () {
   this.route('change-password');
   this.route('users');
   this.route('blog');
-  this.route('create-blog');
-  this.route('search-blog');
 });
 
 export default Router;
