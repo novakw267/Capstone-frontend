@@ -10,6 +10,8 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         {{#if isAuthenticated}}
+        <li>{{#link-to "create-blog"}}Create Blog{{/link-to}}</li>
+        <li>{{#link-to "change-password"}}Search Blog{{/link-to}}</li>
         <li>{{#link-to "change-password"}}Change Password{{/link-to}}</li>
         <li><a href="#" {{action "signOut"}}>Sign Out</a></li>
         {{else}}
@@ -21,8 +23,10 @@
   </div>
 </nav>
 
-<h1>Welcome to Ember!</h1>
-
+<h1>Welcome to Rockin Debates</h1>
+<div class="info-message">
+<h3>The cool place to talk about your favorite music!</h3>
+</div>
 {{#each flashMessages.queue as |flash|}}
   {{flash-message flash=flash}}
 {{/each}}
