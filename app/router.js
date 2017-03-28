@@ -10,7 +10,12 @@ Router.map(function () {
   this.route('sign-in');
   this.route('change-password');
   this.route('users');
-  this.route('blog');
+  this.route('blog', function() {
+    this.route('edit');
+  });
+  this.route('blogs', function() {
+    this.route('new');
+  });
 });
 
 export default Router;
