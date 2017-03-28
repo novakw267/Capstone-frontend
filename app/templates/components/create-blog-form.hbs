@@ -1,23 +1,45 @@
 <div class="form-group">
   <label for="previous">Title</label>
-  {{input type="password"
+  {{input type="text"
           class="form-control"
+          maxlength="50"
           id="previous"
-          placeholder="Old password"
+          placeholder="Title"
           value=passwords.previous}}
 </div>
 
 <div class="form-group">
-  <label for="next">New Password</label>
-  {{input type="password"
+  <label for="next">Subject</label>
+  {{input type="text"
           class="form-control"
+          maxlength="75"
           id="next"
-          placeholder="New password"
+          placeholder="Subject"
+          value=passwords.next}}
+</div>
+
+<div class="form-group">
+  <label for="next">Body</label>
+  {{input type="text"
+          class="form-control"
+          maxlength="500"
+          id="next"
+          placeholder="Body"
+          value=passwords.next}}
+</div>
+
+<div class="form-group">
+  <label for="next">Author</label>
+  {{input type="text"
+          class="form-control"
+          maxlength="50"
+          id="next"
+          placeholder="Author"
           value=passwords.next}}
 </div>
 
 <button type="submit" class="btn btn-primary" {{action "submit"}}>
-  Change Password
+  Create
 </button>
 
 <button class="btn btn-default" {{action "reset"}}>
