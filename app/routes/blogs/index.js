@@ -5,8 +5,5 @@ export default Ember.Route.extend({
   editBlog (blog) {
     this.transitionTo('blog.edit', blog);
   },
-  deleteBlog (blog) {
-    blog.destroyRecord();
-  },
 },
 });
