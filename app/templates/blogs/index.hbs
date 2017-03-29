@@ -10,8 +10,8 @@
       <h3>Author: {{blog.author}}</h3>
       <br>
       <btn class='comment btn btn-primary'>Add Comment</btn>
-      <btn class='edit btn btn-primary'>Edit Blog</btn>
-      <btn class='delete btn btn-danger'>Delete</btn>
+      <btn class='edit btn btn-primary' {{action 'edit'}}>Edit Blog</btn>
+      <btn class='delete btn btn-danger' {{action 'delete'}}>Delete</btn>
     </div>
   {{/each}}
 </div>
