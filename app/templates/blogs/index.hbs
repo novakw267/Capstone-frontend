@@ -3,6 +3,11 @@
 </div>
 <div class="container">
   {{#each model as |blog|}}
+  {{blog-form
+     blog=blog
+     edit='editBlog'
+     delete="deleteBlog"
+   }}
     <div class='blog-model'>
       <h2>Title: {{blog.title}}</h2>
       <h3>Subject: {{blog.subject}}</h3>
