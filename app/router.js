@@ -16,6 +16,9 @@ Router.map(function () {
   this.route('blogs', function() {
     this.route('new');
   });
+  this.route('comment', function() {
+    this.route('new');
+  });
 });
 
 export default Router;

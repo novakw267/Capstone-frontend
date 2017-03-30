@@ -1,0 +1,12 @@
+{{#each model as |comment|}}
+{{comment-list/index
+  comment=model
+
+}}
+{{/each}}
+
+{{comment-list/button
+  comment=model
+  new='newComment'
+}}
+{{!-- {{#link-to 'comment' class='btn btn-info'}}Add Comment{{/link-to}} --}}
