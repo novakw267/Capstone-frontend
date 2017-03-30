@@ -6,10 +6,10 @@ export default Ember.Component.extend({
       console.log('edit');
       this.sendAction('edit', this.get('blog'));
     },
-    // delete() {
-    //   console.log('almost');
-    //   return this.sendAction('delete', this.get('blog'));
-    // },
+    delete() {
+      console.log('almost');
+      this.sendAction('delete', this.get('blog'));
+    },
     save() {
       console.log('save', this.get('blog'));
       this.sendAction('save', this.get('blog'));

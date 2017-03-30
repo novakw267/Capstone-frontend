@@ -1,4 +1,4 @@
-<div class="info-message">
+{{!-- <div class="info-message">
 <h2> Checkout all the sweet blogs! </h2>
 </div>
 <div class="container">
@@ -9,10 +9,10 @@
       <h3>Blog: {{blog.body}}</h3>
       <h3>Author: {{blog.author}}</h3>
       <br>
-      <btn class='comment btn btn-primary'>Add Comment</btn>
-      <btn class='edit btn btn-primary' {{action 'edit'}}>Edit Blog</btn>
-      <btn class='delete btn btn-danger' {{action 'delete'}}>Delete</btn>
+      <button class='comment btn btn-primary'>Add Comment</button>
+      <button class='edit btn btn-primary' {{action 'edit'}}>Edit Blog</button>
+      <button class='delete btn btn-danger' type='submit' {{action 'delete'}}>Delete</button>
     </div>
   {{/each}}
-</div>
-{{outlet}}
+</div> --}}
+{{blog-action}}
