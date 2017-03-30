@@ -11,7 +11,7 @@ Router.map(function () {
   this.route('change-password');
   this.route('users');
   this.route('blog', { path: '/blogs/:blog_id' }, function() {
-      this.route('edit', { path: '/blogs/:blog_id/edit'});
+      this.route('edit', { path: '/edit'});
   });
   this.route('blogs', function() {
     this.route('new');
