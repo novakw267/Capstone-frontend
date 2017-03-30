@@ -7,11 +7,10 @@ export default Ember.Route.extend({
   // },
   actions: {
   editBlog (blog) {
-    console.log('edit2');
+    console.log('edit2', blog);
     this.transitionTo('blog.edit', blog);
   },
   deleteBlog (blog) {
-    console.log("gone!");
     blog.destroyRecord();
   },
 },

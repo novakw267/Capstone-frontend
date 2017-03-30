@@ -1,13 +1,11 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  edit() {
-    console.log('edit');
-    this.sendAction('edit', this.get('blog'));
-    this.transitionTo('blog-list.post');
+actions: {
+  save() {
+    console.log('save', this.get('blog'));
+    this.sendAction('save', this.get('blog'));
+    this.set('createBlog', null);
   },
-  cancel() {
-    this.get('blog').rollbackAttributes();
-    this.sendAction('cancel');
   }
 });
