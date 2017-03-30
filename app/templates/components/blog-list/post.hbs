@@ -1,1 +1,47 @@
-{{yield}}
+<h2>Edit blog</h2>
+<form>
+<div class="form-group">
+  <label>Title</label>
+  {{input type="text"
+          class="form-control"
+          maxlength="50"
+          placeholder="Title"
+          value=blog.title}}
+</div>
+
+<div class="form-group">
+  <label>Subject</label>
+  {{input type="text"
+          class="form-control"
+          maxlength="75"
+          placeholder="Subject"
+          value=blog.subject}}
+</div>
+
+<div class="form-group">
+  <label>Body</label>
+  {{input type="text"
+          class="form-control"
+          maxlength="500"
+          placeholder="Body"
+          value=blog.body}}
+</div>
+
+<div class="form-group">
+  <label>Author</label>
+  {{input type="text"
+          class="form-control"
+          maxlength="50"
+          placeholder="Author"
+          value=blog.author}}
+</div>
+
+
+<button type="submit" class="btn btn-primary" {{action 'edit'}}>
+  Create
+</button>
+
+<button class="btn btn-default" {{action "cancel"}}>
+  Cancel
+</button>
+</form>

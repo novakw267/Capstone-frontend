@@ -1,0 +1,8 @@
+{{!-- <h2> Checkout these sweet blogs!</h2> --}}
+{{#each model as |blog|}}
+{{blog-list/post
+  blog=blog
+  edit=editBlog
+}}
+{{/each}}
+{{outlet}}
