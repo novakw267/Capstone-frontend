@@ -7,6 +7,7 @@ export default Ember.Route.extend({
   // },
   actions: {
   editBlog (blog) {
+    console.log('edit2');
     this.transitionTo('blog.edit', blog);
   },
   deleteBlog (blog) {
