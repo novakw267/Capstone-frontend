@@ -7,7 +7,7 @@ export default Ember.Route.extend({
     },
   saveBlog(blog) {
     blog.save()
-    .then(() => this.transitionTo('blogs'));
+    .then(() => this.transitionTo('blogs.index'));
   },
   deleteBlog (blog) {
     this.get('auth').deleteBlog(blog);

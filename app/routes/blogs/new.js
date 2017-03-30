@@ -6,8 +6,8 @@ export default Ember.Route.extend({
 },
 actions: {
   createBlog(blog) {
-    blog.save(blog)
-    .then(() => this.transitionTo('blogs'));
+    blog.save()
+    .then(() => this.transitionTo('blogs.index'));
   },
   cancel () {
     history.back();

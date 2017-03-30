@@ -2,9 +2,8 @@
 <h3>Subject: {{blog.subject}}</h3>
 <h3>Blog: {{blog.body}}</h3>
 <h3>Author: {{blog.author}}</h3>
-<br>
 {{#if blog.editable}}
-<button class='comment btn btn-primary'>Add Comment</button>
+{{!-- <button class='comment btn btn-primary'>Add Comment</button> --}}
 <button class="btn btn-primary" {{action 'edit'}}>Edit</button>
 <button class='delete btn btn-danger' type='submit' {{action 'delete'}}>Delete</button>
 {{/if}}
