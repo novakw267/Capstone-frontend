@@ -10,6 +10,7 @@ export default Ember.Route.extend({
     .then(() => this.transitionTo('blogs'));
   },
   deleteBlog (blog) {
+    this.get('auth').deleteBlog(blog);
     blog.destroyRecord();
   },
   cancel () {
