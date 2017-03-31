@@ -3,7 +3,7 @@
 The cool place to talk about music!
 
 ## Webpage Being awesome!
-<blockquote class="imgur-embed-pub" lang="en" data-id="07MEVC9"><a href="//imgur.com/07MEVC9">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src'http://i.imgur.com/07MEVC9.png' alt'screen shot'>
 
 ## Links
 
