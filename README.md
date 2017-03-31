@@ -1,74 +1,51 @@
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
+## Rockin Debates
 
-# Authentication in Ember
+The cool place to talk about music!
 
-This training will involve a lot of following code and and exploring the
-Chrome Inspector and utilizing Ember Inspector.  It is recommended that you
-comment code or take notes.
+## Links
 
-## Prerequisites
+[deployed Front-end](https://novakw267.github.io/Capstone-frontend/)
+[deployed Back-end](https://fierce-citadel-56370.herokuapp.com/)
+[Back-end Repo](https://github.com/novakw267/Capstone-api)
 
--   [Ember Resources](https://github.com/ga-wdi-boston/ember-resources)
+## Technology I used
+  I used Ember to structure my frontend, which made it easier to create the display and add all the buttons, links, and views. It also allowed for an easy connection to my backend via its similarity with ruby on rails.
 
-## Objectives
+## My approach to building this
+  My approach was centered around structuring an app that would allow a user to blog about anything music related. I also wanted to add the ability for users to comment on posts and talk to each other.
 
-By the end of this, developers should be able to:
+  I started on the backend to create the structure of the blogs and the what the users would have access to. I then after creating the relationships and things I wanted to include in the blogs went to the front end.
 
--   Implement token authentication in an Ember application.
--   Enforce authentication in protected routes.
+  There I started creating the ability for a user to see blogs posted, and then the form fields to allow a user to submit their own posts.
+  They can also update and delete their posts.
 
-## Preparation
+## Installation Instructions
 
-1.  [Fork and clone](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
-    this repository.
-1.  Install dependencies with `npm install` and `bower install`.
-1.  Start any API based on a recent version of the [Rails API
-    Template](https://github.com/ga-wdi-boston/rails-api-template) or the
-    [Express API
-    Template](https://github.com/ga-wdi-boston/express-api-template).
-1.  Start the front-end server with `ember server`.
+1) Npm install
+2) Bower install
 
-## From end to end
+## User Stories
+As a user:
+- I want to sign up and be able to store my posts.
+- When I sign in I want to be abel to see my posts.
+- I want to be able to create, edit, and delete my own posts.
+- I want to share my posts with other users.
+- I want to be able to view the newest posts by any user.
+- I do not want other users to be able to edit my content.
+- I want to be able to comment on other user's posts and them to be able to on my posts.
 
-Watch as I sign up for a new account on our demo app.
+## Wire Frames
+[Wire Frame 1](https://files.slack.com/files-pri/T0351JZQ0-F4Q98GYJY/imag0361.jpg)
 
-*Other than the flash messages on the page, did anything change?  What about in
-the Chrome Developer Tools?*
+## Pitch
+  With this project my goal was to create a place where users can blog about music. I wanted to be able to add the spotify api, so users could be able to add their playlists, spotify profiles, and bands they love in their posts.
+  A big inspiration for this was the fact that I don't know a lot of people that love certain types of music the way I do. I wanted to eventually create a resource that would be great for finding other people that love the same kind of music you do.
+  One day this is going to be the app for finding new music and connecting with others who love and follow music the way you do.
 
-Take some time and sign in on your own, and check to see if anything in the
-Chrome Dev Tools has changed.
+## Challenges and Future Additions'
 
-Now that we have added a key tool to our personal developer toolkit lets look
-at how it's implemented.
+  A major challenge for this project was learning ember as I went. It created a lot of problems through having to learning a brand new syntax. However Ember also once I had an understanding of it, saved a ton of time structuring my front end.
+  Another big thing I conquered was setting up the relationships on the back end. I ran into issues having the relationships talk to each other at first. I was able to find the problem and fix it.
 
-## Follow Along
-
-Let's walk through file by file to see what's happening.  I will ask
-developers to guide me through the files while correcting any misunderstandings.
-
-First let's start down the template and component trail, then we'll work our way
-up with actions.
-
-*Remember: Data down, actions up.*
-
-While going up the Ember hierarchy we may need to stop a some point to discuss
-services.
-
-## Additional Resources
-
--   [Implementing Authentication with Ember Services - Ember
-    Igniter](http://emberigniter.com/implementing-authentication-with-ember-services/)
--   [jpadilla/ember-simple-auth-token: Ember Simple Auth extension that is
-    compatible with token-based authentication like
-    JWT.](https://github.com/jpadilla/ember-simple-auth-token)
--   [simplabs/ember-simple-auth: A library for implementing
-    authentication/authorization in Ember.js
-    applications.](https://github.com/simplabs/ember-simple-auth)
--   [Create your first Ember 2.0 app: From authentication to calling an
-    API](https://auth0.com/blog/2015/08/11/create-your-first-ember-2-dot-0-app-from-authentication-to-calling-an-api/)
-
-## [License](LICENSE)
-
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
+  In the future I want to refactor this app, and add a couple of things.
+  I would love to add the spotify or Itunes api. This would be so users can reference easily the music that they're talking about. I also would love to add the ability to comment on posts, and chat between users.
