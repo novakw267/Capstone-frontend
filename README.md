@@ -3,7 +3,7 @@
 The cool place to talk about music!
 
 ## Webpage Being awesome!
-<img src'http://i.imgur.com/07MEVC9.png' alt'screen shot'>
+[screen shot](http://i.imgur.com/07MEVC9.png)
 
 ## Links
 
