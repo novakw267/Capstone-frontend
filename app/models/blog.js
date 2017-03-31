@@ -5,5 +5,6 @@ export default DS.Model.extend({
   subject: DS.attr('string'),
   body: DS.attr('string'),
   author: DS.attr('string'),
-  editable: DS.attr('boolean')
+  comments: DS.hasMany('comment'),
+  editable: DS.attr('boolean'),
 });

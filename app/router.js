@@ -17,7 +17,7 @@ Router.map(function () {
     this.route('new');
   });
   this.route('comment', function() {
-    this.route('new');
+    this.route('new', { path: 'blogs/comment-list/new'});
   });
 });
 

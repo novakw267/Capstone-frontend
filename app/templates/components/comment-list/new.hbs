@@ -6,7 +6,7 @@
           class="form-control"
           maxlength="50"
           placeholder="Author"
-          value=comment.author}}
+          value=newComment.author}}
 </div>
 
 <div class="form-group">
@@ -15,9 +15,9 @@
           class="form-control"
           maxlength="75"
           placeholder="Subject"
-          value=comment.idea}}
+          value=newComment.idea}}
 </div>
-<button type="submit" class="btn btn-success" {{action 'save'}}>
+<button type="submit" class="btn btn-success" {{action 'createComment'}}>
   Create
 </button>
 
