@@ -1,9 +1,12 @@
-<h2>Title: {{blog.title}}</h2>
-<h3>Subject: {{blog.subject}}</h3>
-<h3>Blog: {{blog.body}}</h3>
-<h3>Author: {{blog.author}}</h3>
+<div class='blog-template'>
+<h2><div class='section-title' id='title-headline'> Topic:</div> <div class='section-body bg-info'>{{blog.title}} </div> </h2>
+<h3><div class='section-title' id='subject-headline'> Sum it up:</div> <div class='section-body bg-info'>{{blog.subject}} </div> </h3>
+<h3><div class='section-title' id='body-headline'> Argument:</div> <div class='section-body bg-info'>{{blog.body}} </div> </h3>
+<h3><div class='section-title'id='author-headline'> Who's babbling:</div> <div class='section-body bg-info'>{{blog.author}} </div> </h3>
+<br class='blog-break'>
 {{#if blog.editable}}
 {{!-- <button class='comment btn btn-primary'>Add Comment</button> --}}
 <button class="btn btn-primary" {{action 'edit'}}>Edit</button>
 <button class='delete btn btn-danger' type='submit' {{action 'delete'}}>Delete</button>
 {{/if}}
+</div>

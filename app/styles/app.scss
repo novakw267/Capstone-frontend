@@ -1,2 +1,30 @@
 @import 'bootstrap';
 @import 'bootstrap/theme';
+@import 'colors';
+
+.blog-break {
+  border-style: outset;
+}
+
+.blog-template {
+  text-align: center;
+}
+
+.headline {
+  text-align: center;
+}
+
+.section-body {
+  border-style: outset;
+
+}
+
+.section-title {
+  border-style: double;
+  text-align: left;
+  text-decoration: underline;
+}
+
+#title-title {
+  color: green;
+}
