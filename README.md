@@ -3,7 +3,7 @@
 The cool place to talk about music!
 
 ## Webpage Being awesome!
-<img src='https://files.slack.com/files-pri/T0351JZQ0-F4SG7GXCL/pasted_image_at_2017_03_31_12_29_am.png'>
+<blockquote class="imgur-embed-pub" lang="en" data-id="07MEVC9"><a href="//imgur.com/07MEVC9">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ## Links
 
